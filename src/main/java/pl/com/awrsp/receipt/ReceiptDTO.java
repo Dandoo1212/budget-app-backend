@@ -1,14 +1,12 @@
 package pl.com.awrsp.receipt;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
 @Setter
+@ToString
 public class ReceiptDTO {
   private String name;
   private double money;

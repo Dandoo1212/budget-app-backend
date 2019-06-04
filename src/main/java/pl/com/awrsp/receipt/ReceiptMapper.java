@@ -1,8 +1,11 @@
 package pl.com.awrsp.receipt;
 
+import org.springframework.stereotype.Component;
+
 import java.util.List;
 import java.util.stream.Collectors;
 
+@Component
 public class ReceiptMapper {
 
   ReceiptDTO toDto(Receipt receipt) {
