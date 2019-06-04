@@ -16,8 +16,5 @@ public class SpringbootApplication {
         ReceiptService service = ctx.getBean(ReceiptService.class);
         service.save(new ReceiptDTO("Paragon", 20.0, Categories.BILLS));
         service.update(new ReceiptDTO("Not paragon", 25.0, Categories.CLOTHING), 1);
-        System.out.println(service.findAll());
-        service.delete(1L);
-         System.out.println(service.findAll());
     }
 }

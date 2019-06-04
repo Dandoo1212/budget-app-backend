@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ae55bd5-4bef-4821-aa39-c0afd7b4e11c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/com/awrsp/category/CategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/com/awrsp/category/SummedCategories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/com/awrsp/category/SummedCategories.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/com/awrsp/category/CategoryContoller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/com/awrsp/category/CategoryContoller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/com/awrsp/receipt/ReceiptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/com/awrsp/receipt/ReceiptController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -99,7 +100,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/com/awrsp/category/CategoryService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="197">
@@ -114,22 +115,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/com/awrsp/receipt/ReceiptDTO.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/com/awrsp/receipt/ReceiptController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            <state relative-caret-position="68">
+              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/com/awrsp/category/CategoryContoller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#451#452#0" expanded="true" />
+                <element signature="e#499#500#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/com/awrsp/receipt/ReceiptMapper.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/com/awrsp/receipt/ReceiptDTO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -178,6 +190,8 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/com/awrsp/category/Category.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/com/awrsp/category/SummedCategories.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/com/awrsp/category/CategoryService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/com/awrsp/receipt/ReceiptController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/com/awrsp/category/CategoryContoller.java" />
       </list>
     </option>
   </component>
@@ -322,12 +336,12 @@
       <option name="presentableId" value="Default" />
       <updated>1559655777878</updated>
       <workItem from="1559655779535" duration="3564000" />
-      <workItem from="1559666262926" duration="5246000" />
+      <workItem from="1559666262926" duration="5948000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8810000" />
+    <option name="totallyTimeSpent" value="9512000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -491,6 +505,25 @@
             <element signature="imports" expanded="true" />
             <element signature="e#471#472#0" expanded="true" />
             <element signature="e#517#518#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/com/awrsp/receipt/ReceiptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/com/awrsp/category/CategoryContoller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
           </folding>
         </state>
       </provider>
