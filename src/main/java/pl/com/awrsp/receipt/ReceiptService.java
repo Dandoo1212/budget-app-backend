@@ -1,18 +1,24 @@
 package pl.com.awrsp.receipt;
 
-import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-@AllArgsConstructor
+import java.util.List;
+
 @Service
 public class ReceiptService {
 
-    @Autowired
     private ReceiptRepository receiptRepository;
 
-    public void findAll(){
-     System.out.println(receiptRepository.findAll());
+    @Autowired
+    public ReceiptService(ReceiptRepository receiptRepository){
+        this.receiptRepository=receiptRepository;
     }
+
+
+    public List<Receipt> findAll(){
+
+    }
+
 
 }
