@@ -1,0 +1,12 @@
+/home/damian/Projects/budget-app-backend/src/main/java/pl/com/awrsp/category/CategoryService.java
+/home/damian/Projects/budget-app-backend/src/main/java/pl/com/awrsp/category/Category.java
+/home/damian/Projects/budget-app-backend/src/main/java/pl/com/awrsp/receipt/ReceiptController.java
+/home/damian/Projects/budget-app-backend/src/main/java/pl/com/awrsp/receipt/ReceiptMapper.java
+/home/damian/Projects/budget-app-backend/src/main/java/pl/com/awrsp/receipt/Receipt.java
+/home/damian/Projects/budget-app-backend/src/main/java/pl/com/awrsp/category/SummedCategories.java
+/home/damian/Projects/budget-app-backend/src/main/java/pl/com/awrsp/receipt/Categories.java
+/home/damian/Projects/budget-app-backend/src/main/java/pl/com/awrsp/receipt/ReceiptRepository.java
+/home/damian/Projects/budget-app-backend/src/main/java/pl/com/awrsp/receipt/ReceiptDTO.java
+/home/damian/Projects/budget-app-backend/src/main/java/pl/com/awrsp/SpringbootApplication.java
+/home/damian/Projects/budget-app-backend/src/main/java/pl/com/awrsp/category/CategoryContoller.java
+/home/damian/Projects/budget-app-backend/src/main/java/pl/com/awrsp/receipt/ReceiptService.java

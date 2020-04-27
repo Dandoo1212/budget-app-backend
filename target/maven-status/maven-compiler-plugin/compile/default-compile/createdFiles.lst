@@ -1,0 +1,12 @@
+pl/com/awrsp/receipt/ReceiptDTO.class
+pl/com/awrsp/category/CategoryService.class
+pl/com/awrsp/category/SummedCategories.class
+pl/com/awrsp/receipt/ReceiptController.class
+pl/com/awrsp/receipt/Categories.class
+pl/com/awrsp/category/CategoryContoller.class
+pl/com/awrsp/receipt/ReceiptService.class
+pl/com/awrsp/receipt/ReceiptMapper.class
+pl/com/awrsp/SpringbootApplication.class
+pl/com/awrsp/receipt/ReceiptRepository.class
+pl/com/awrsp/receipt/Receipt.class
+pl/com/awrsp/category/Category.class

@@ -1,12 +1,14 @@
 package pl.com.awrsp.category;
 
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import static org.springframework.http.HttpStatus.OK;
 
 @RestController
+@CrossOrigin
 public class CategoryContoller {
 
   private CategoryService categoryService;

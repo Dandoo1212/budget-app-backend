@@ -10,6 +10,7 @@ import static org.springframework.http.HttpStatus.OK;
 
 @RestController
 @RequestMapping("/api")
+@CrossOrigin
 public class ReceiptController {
 
   private ReceiptService receiptService;

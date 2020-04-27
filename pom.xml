@@ -7,6 +7,7 @@
     <groupId>pl.com.awrsp</groupId>
     <artifactId>budget-app</artifactId>
     <version>1.0-SNAPSHOT</version>
+
     <properties>
         <spring-boot-version>2.1.5.RELEASE</spring-boot-version>
         <maven.compiler.source>11</maven.compiler.source>
@@ -56,13 +57,15 @@
             <version>${lombok-version}</version>
             <scope>provided</scope>
         </dependency>
-
-        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+        <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
         <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>${mysql-connector-version}</version>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.2.12</version>
         </dependency>
+
+
+
     </dependencies>
 
     <build>
@@ -70,6 +73,17 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <mainClass>pl.com.awrsp.SpringbootApplication</mainClass>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+
             </plugin>
         </plugins>
     </build>
